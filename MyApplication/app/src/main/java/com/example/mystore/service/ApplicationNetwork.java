@@ -1,6 +1,6 @@
 package com.example.mystore.service;
 
-import com.example.mystore.network.CategoryApi;
+import com.example.mystore.network.CategoriesApi;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
@@ -23,8 +23,8 @@ public class ApplicationNetwork {
 
     }
 
-    public CategoryApi getCategory (){
-        return retrofit.create(CategoryApi.class);
+    public CategoriesApi getCategoriesApi (){
+        return retrofit.create(CategoriesApi.class);
     }
 
 }
