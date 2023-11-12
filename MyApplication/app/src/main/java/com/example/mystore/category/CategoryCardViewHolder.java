@@ -12,16 +12,17 @@ import com.example.mystore.R;
 public class CategoryCardViewHolder extends RecyclerView.ViewHolder {
     private ImageView categoryImage;
     private TextView categoryName;
-
-     public CategoryCardViewHolder(@NonNull View itemView) {
+    public CategoryCardViewHolder(@NonNull View itemView) {
         super(itemView);
         categoryImage = itemView.findViewById(R.id.categoryImage);
         categoryName = itemView.findViewById(R.id.categoryName);
     }
-    public ImageView getCategoryImage(){
-         return categoryImage;
+
+    public ImageView getCategoryImage() {
+        return categoryImage;
     }
-    public TextView getCategoryName(){
+
+    public TextView getCategoryName() {
         return categoryName;
     }
 }

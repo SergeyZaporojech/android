@@ -1,7 +1,7 @@
-    <resources>
+<resources>
     <string name="app_name">My Store</string>
-        <string name="category_name">Назва</string>
-        <string name="category_image">Фото</string>
-        <string name="category_description">Опис</string>
-        <string name="category_add">Додати</string>
-    </resources>
+    <string name="category_name">Назва</string>
+    <string name="category_add">Додать</string>
+    <string name="category_description">Опис</string>
+    <string name="category_image">Фото</string>
+</resources>

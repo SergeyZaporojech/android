@@ -1,10 +1,10 @@
-package com.example.mystore.dto;
+package com.example.mystore.dto.category;
 
 public class CategoryItemDTO {
-    private  int id;
-    private  String name;
-    private  String image;
-    private  String description;
+    private int id;
+    private String name;
+    private String image;
+    private String description;
 
     public int getId() {
         return id;
